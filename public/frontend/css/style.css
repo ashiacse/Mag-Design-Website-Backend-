@@ -1,0 +1,94 @@
+.main {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.menu-icon{
+  text-align: start;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+  border-radius: 50px;
+}
+.has-search .form-control-feedback {
+  position: absolute;
+  margin: 0;
+  /* z-index: 2; */
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+.social {
+  top: 5px;
+  position: relative;
+  margin: 0;
+  /* margin-left: 150px; */
+}
+.offcanvas-body ul li{
+  list-style: none;
+}
+ul>li>a>.active{
+  color: tomato;
+}
+.card{
+  border:none;
+}
+.card-body {
+  padding-left: 0;
+}
+.post-heading {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Poppins",sans-serif;
+  margin-top: 90px;
+}
+.social-media-icon a {
+  background: #ccc;
+  border-radius: 15px;
+}
+.social-media-icon a:hover {
+  background: tomato;
+}
+ .fa-brands:hover{
+  color: #fff;
+}
+.terms:hover{
+text-decoration: underline;
+text-decoration-color: tomato;
+}
+
+.autoplayButton .btn{
+  height:0px;
+  width:0px;
+  border-radius: 50%;
+}
+
+.tns-nav{
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  top: 650px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+  .tns-nav button {
+    width: 10px;
+    background: tomato;
+    height: 12px;
+    margin-right: 3px;
+    border-radius: 100%;
+    border: none;
+  }
+  button.tns-nav-active {
+    background: rgb(90, 95, 90);
+  }
